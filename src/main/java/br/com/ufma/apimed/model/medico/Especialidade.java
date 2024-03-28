@@ -1,4 +1,4 @@
-package br.com.ufma.apimed.model;
+package br.com.ufma.apimed.model.medico;
 
 public enum Especialidade {
     ORTOPEDIA,
