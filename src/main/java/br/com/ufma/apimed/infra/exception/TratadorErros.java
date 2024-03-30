@@ -1,4 +1,4 @@
-package br.com.ufma.apimed.infra;
+package br.com.ufma.apimed.infra.exception;
 
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.http.ResponseEntity;
