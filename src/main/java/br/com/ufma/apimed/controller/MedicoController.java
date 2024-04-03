@@ -1,6 +1,7 @@
 package br.com.ufma.apimed.controller;
 
 import br.com.ufma.apimed.model.medico.*;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -16,6 +17,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("medicos")
+@SecurityRequirement(name = "bearer-key")
 public class MedicoController {
 
     @Autowired
